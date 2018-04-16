@@ -5,7 +5,7 @@ BatchVideoJSON is a Lua script aiming to expand even further the funcionality al
 
 Usage: 
 ```
-$batchvideojson path\ to\ video\ files\ directory
+$batchvideojson TAPE\ NAME\ AND\ NUMBER
 ```
 
 This Project is in development by [Herik Tedesco](https://github.com/heriktedesco) as part of it's internship at [Tesserato Tecnologia e Vídeo](https://www.linkedin.com/company/tesserato/), under the direct supervision of [Gustavo H. M. Silva](https://github.com/gustavohmsilva).   
