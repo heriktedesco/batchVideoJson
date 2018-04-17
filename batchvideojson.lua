@@ -24,8 +24,6 @@ os.execute("rm templist")
 
 for i,x in ipairs(listaDeArquivos) do
   indexCommand = "mediajson "..string.gsub(x, " ", "\\ ").." "..string.gsub(arg[1], " ","\\ ")
-  if retBoolDot(x, 5) or retBoolDot(x, 4) or retBoolDot(x, 3) then
-    print(indexCommand)
-    os.execute(indexCommand)
+  os.execute(indexCommand)
   end
 end
