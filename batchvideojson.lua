@@ -25,5 +25,4 @@ os.execute("rm templist")
 for i,x in ipairs(listaDeArquivos) do
   indexCommand = "mediajson "..string.gsub(x, " ", "\\ ").." "..string.gsub(arg[1], " ","\\ ")
   os.execute(indexCommand)
-  end
 end
