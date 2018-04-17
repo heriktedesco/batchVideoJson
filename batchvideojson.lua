@@ -27,5 +27,4 @@ for i,x in ipairs(listaDeArquivos) do
   if retBoolDot(x, 5) or retBoolDot(x, 4) or retBoolDot(x, 3) then
     print(indexCommand)
     os.execute(indexCommand)
-  end
 end
